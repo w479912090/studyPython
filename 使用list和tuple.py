@@ -17,6 +17,11 @@ print(classmates[1])
 classmates.pop(1)
 print(classmates)
 
+#数组切片  数据包前不包后
+print(classmates[:])
+print(classmates[:2])
+print(classmates[:-1])
+
 #有序列表叫元组：tuple，tuple一旦初始化就不能修改
 books = ('语文','数学','英语')
 #books这个tuple不能变，它没有append(),insert()这些方法,其他获取元素的方法和list是一样的，但不能赋值成另外的元素
